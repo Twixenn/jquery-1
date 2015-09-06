@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <header>
+          <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container">
+                  <div class="navbar-header">
+                      <button class="navbar-toggle" data-toggle="collapse" data-target="#content-nav">
+                          <span class="icon-bar"></span> 
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a href="index.html" class="navbar-brand" >T4</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="content-nav">
+                      
+                      <ul class="nav navbar-nav">
+                          <li><a href="page1.html">Övning 1</a></li>
+                          <li class="active"><a href="page2.html">Övning 2</a></li>
+                          <li><a href="page3.html">Övning 3</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+        <div class="jumbotron">
+         <div class="container">
+           <h1>jQuery<small>-introduktion</small></h1>
+        </div>
+         </div>
+      </header>
+        <div class="container">
+           <button class="btn btn-primary">Klicka på mig!</button>
+           <div id="text" class="alert alert-danger">
+                    Denna div innehåller bara lite text!
+            </div>
+           
+           <div class="row">
+               <div class="col-sm-4">
+                   <img src="img/jquery-logo.png" alt="jQuery logotype" class="img-responsive" />
+               </div>
+               <div class="col-sm-8">
+                   <h2>Testa nu följande funtioner</h2>
+                   <p>
+                        Lägg till en eller flera klasser, funktionen heter <a href="http://api.jquery.com/addClass/"  target="_blank">addClass</a>.
+                        Självklart kan man även ta bort klasser med <a href="http://api.jquery.com/removeClass/" target="_blank">removeClass</a>. 
+                        Testa även funktionen <a href="http://api.jquery.com/toggleClass/" target="_blank">toggleClass</a>.
+                   </p>
+                   <p class="alert alert-success">
+                      Testa och se om ni kan ta bort och lägga till fler bootstrap-klasser till ett objekt?
+                   </p>
+               </div>
+               
+           </div>
+      </div>
+      <!-- previus/next -->
+      <nav class="navbar-fixed-bottom">
+         <ul class="pager">
+           <li class="previous"><a href="page1.html"><span aria-hidden="true">&larr;</span> Föregående</a></li>
+               <li class="next"><a href="page3.html">Nästa <span aria-hidden="true">&rarr;</span></a></li>
+          </ul>
+       </nav>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled   plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script2.js"></script>
+  </body>
+</html>
+
+
